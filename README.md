@@ -44,6 +44,16 @@ Read more at [Best practices section](#best-practices)
 ```sh
 # Enable the React watcher for hot-reload
 CHOKIDAR_USEPOLLING=true
+
+# Firebase config
+API_KEY=''
+AUTH_DOMAIN=''
+DATABASE_URL=''
+PROJECT_ID=''
+STORAGE_BUCKET=''
+MESSAGING_SENDER_ID=''
+APP_ID=''
+MEASUREMENT_ID=''
 ```
 
 - Install dependencies :
