@@ -22,5 +22,12 @@ module.exports = {
     'comma-dangle': 'off',
     'react/no-unescaped-entities': 'off',
     'react/jsx-one-expression-per-line': 'off',
-  }
+  },
+  settings: {
+    'import/resolver': {
+      node: {
+        moduleDirectory: ['node_modules', 'src/'],
+      },
+    },
+  },
 };
