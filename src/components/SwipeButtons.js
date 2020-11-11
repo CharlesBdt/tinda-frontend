@@ -1,5 +1,5 @@
 import React from 'react';
-import './SwipeButtons.css';
+import 'style/SwipeButtons.css';
 import ReplayIcon from '@material-ui/icons/Replay';
 import CloseIcon from '@material-ui/icons/Close';
 import StarRateIcon from '@material-ui/icons/StarRate';

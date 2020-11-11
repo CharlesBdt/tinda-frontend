@@ -1,8 +1,8 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import './index.css';
 import firebase from 'firebase/app';
 import Login from './Login';
+import 'style/index.css';
 import reportWebVitals from './reportWebVitals';
 
 // Firebase configuration
