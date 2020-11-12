@@ -22,6 +22,10 @@ module.exports = {
     'comma-dangle': 'off',
     'react/no-unescaped-entities': 'off',
     'react/jsx-one-expression-per-line': 'off',
+    'object-curly-newline': 'off',
+    'implicit-arrow-linebreak': 'off',
+    'no-shadow': 'off',
+    'no-use-before-define': 'off'
   },
   settings: {
     'import/resolver': {

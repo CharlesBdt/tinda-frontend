@@ -1,7 +1,7 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import firebase from 'firebase/app';
-import Login from './Login';
+import App from 'pages/App';
 import 'style/index.css';
 import reportWebVitals from './reportWebVitals';
 
@@ -19,7 +19,7 @@ firebase.initializeApp({
 
 ReactDOM.render(
   <React.StrictMode>
-    <Login />
+    <App />
   </React.StrictMode>,
   document.getElementById('root')
 );
