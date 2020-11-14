@@ -19,13 +19,14 @@ export const useAuth = () => useContext(authContext);
 // Provider hook that creates auth object and handles state
 function useProvideAuth() {
   const [user, setUser] = useState(null);
+  const provider = new firebase.auth.GoogleAuthProvider();
 
   // Wrap any Firebase methods we want to use making sure ...
   // ... to save the user to state.
-  const signin = (email, password) =>
+  const signin = () =>
     firebase
       .auth()
-      .signInWithEmailAndPassword(email, password)
+      .signInWithPopup(provider)
       .then((response) => {
         setUser(response.user);
         return response.user;

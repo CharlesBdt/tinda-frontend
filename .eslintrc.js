@@ -25,7 +25,9 @@ module.exports = {
     'object-curly-newline': 'off',
     'implicit-arrow-linebreak': 'off',
     'no-shadow': 'off',
-    'no-use-before-define': 'off'
+    'no-use-before-define': 'off',
+    'no-confusing-arrow': 'off',
+    'react/jsx-curly-newline': 'off'
   },
   settings: {
     'import/resolver': {
