@@ -1,8 +1,11 @@
 import React from 'react';
+import Grid from '@material-ui/core/Grid';
 
 function MessagesSettings() {
   return (
-    <h3>My Messages</h3>
+    <Grid item>
+      <h3>My Messages</h3>
+    </Grid>
   );
 }
 

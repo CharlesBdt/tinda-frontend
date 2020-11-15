@@ -6,6 +6,7 @@ import {
   Redirect,
 } from 'react-router-dom';
 import { ProvideAuth, useAuth } from 'utils/auth';
+import 'style/App.css';
 
 import Login from 'pages/Login';
 import Home from 'pages/Home';
@@ -39,7 +40,7 @@ function App() {
 // eslint-disable-next-line react/prop-types
 function PrivateRoute({ children, ...rest }) {
   const auth = useAuth();
-  console.log('rest', auth);
+
   return (
     <Route
       // eslint-disable-next-line react/jsx-props-no-spreading

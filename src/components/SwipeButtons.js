@@ -6,10 +6,16 @@ import StarRateIcon from '@material-ui/icons/StarRate';
 import FavoriteIcon from '@material-ui/icons/Favorite';
 import FlashOnIcon from '@material-ui/icons/FlashOn';
 import IconButton from '@material-ui/core/IconButton';
+import Grid from '@material-ui/core/Grid';
 
 function SwipeButtons() {
   return (
-    <div className="swipeButtons">
+    <Grid
+      item
+      container
+      justify="space-evenly"
+      className="swipeButtons"
+    >
       <IconButton className="swipeButtons__repeat">
         <ReplayIcon fontSize="large" />
       </IconButton>
@@ -25,7 +31,7 @@ function SwipeButtons() {
       <IconButton className="swipeButtons__lightning">
         <FlashOnIcon fontSize="large" />
       </IconButton>
-    </div>
+    </Grid>
   );
 }
 
